@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/888adityas/food_ordering/static/css/main.085fbc70.css",
+    "main.js": "/888adityas/food_ordering/static/js/main.fc5e417c.js",
+    "static/media/loading.gif": "/888adityas/food_ordering/static/media/loading.95e0c014b427e48f5dd0.gif",
+    "index.html": "/888adityas/food_ordering/index.html",
+    "main.085fbc70.css.map": "/888adityas/food_ordering/static/css/main.085fbc70.css.map",
+    "main.fc5e417c.js.map": "/888adityas/food_ordering/static/js/main.fc5e417c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.085fbc70.css",
+    "static/js/main.fc5e417c.js"
+  ]
+}

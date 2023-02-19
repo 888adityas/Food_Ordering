@@ -1,0 +1,19 @@
+@media (width < 417px) {
+  .cartItemBtn {
+    padding: 5px 10px;
+  }
+}
+.custBtn{
+  background-color: rgba(0, 128, 0, 0.184);
+  border: 1px solid rgb(0, 98, 0);
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  margin: .25rem;
+}
+.custBtn:disabled {
+  background-color:rgba(128, 128, 128, 0.067);
+  color: #3f3f3f84;
+  border-color: #ccc;
+  cursor: not-allowed !important;
+}

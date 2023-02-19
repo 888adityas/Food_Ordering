@@ -1,0 +1,16 @@
+.addBtn {
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(to left, #ef473a, #cb2d3e);
+  color: white;
+}
+.addBtn:hover,
+.addBtn:active,
+.addBtn:after {
+  transition: 0.2s all ease;
+
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+  color: white;
+}
+form input:focus {
+  box-shadow: none !important;
+}

@@ -1,0 +1,37 @@
+.backDrop {
+  background-color: rgba(0, 0, 0, 0.606);
+  backdrop-filter: blur(12px);
+  z-index: 30;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+.modal {
+  position: fixed;
+  top: 7%;
+  left: 30%;
+  right: 30%;
+  z-index: 31;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: rgb(255, 255, 255) 0px 20px 30px -10px;
+}
+
+@media (max-width: 1008px) {
+  .modal {
+    left: 25%;
+    right: 25%;
+  }
+}
+@media (max-width: 792px) {
+  .modal {
+    left: 15%;
+    right: 15%;
+  }
+}
+@media (max-width: 576px) {
+  .modal {
+    left: 5%;
+    right: 5%;
+  }
+}

@@ -1,0 +1,12 @@
+
+.stickyTop {
+  position: sticky;
+  top: 0;
+  z-index: 29;
+}
+.backDropBlur {
+  backdrop-filter: blur(10px);
+}
+.headerBg {
+  background-color: rgba(0, 0, 0, 0.061);
+}
