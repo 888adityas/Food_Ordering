@@ -74,7 +74,7 @@
 .userForm {
   overflow-y: auto;
   height: auto;
-  max-height: 28vh;
+  max-height: 12rem;
 }
 .userForm form input:focus {
   box-shadow: none !important;
