@@ -30,7 +30,7 @@ const Cart = (props) => {
         content = "Cart is empty!😞";
     }
 
-    const orderPlacedContent = <p className="fs-5 bg-primary-subtle text-center shadow p-1 m-1 mt-3 animate__animated animate__bounce"><span className='text-capitalize'>{customerName + "'s "}</span>Order placed!🎉 </p>
+    const orderPlacedContent = <p className="fs-5 bg-primary-subtle text-center shadow p-1 m-1 mt-3 animate__animated animate__bounceInUp"><span className='text-capitalize'>{customerName + "'s "}</span>Order placed!🎉 </p>
 
     const showOrderPlacedHandler = (enteredName) => {
         setCustomerName(enteredName);

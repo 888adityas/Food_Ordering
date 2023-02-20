@@ -18,7 +18,7 @@ const CartUserForm = (props) => {
 
     const nameClasses = !enteredName && nameInputTouched ? `${classes.invalid} form-control animate__animated animate__headShake` : "form-control";
     const nameValidClass = enteredName.length > 2 && (enteredName > 'a'
-        || enteredName > 'A') && nameInputTouched && `${classes.valid}`;
+        && enteredName > 'A') && nameInputTouched && `${classes.valid}`;
 
     const numberClasses = !enteredNumber && numberInputTouched ? `${classes.invalid} form-control animate__animated animate__headShake` : "form-control ";
     const numberValidClass = enteredNumber > !('a') && enteredNumber.length === 10 && numberInputTouched && classes.valid;
