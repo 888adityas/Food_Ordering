@@ -26,7 +26,7 @@ const AvailableMeals = () => {
                     name: data[key].name,
                     price: data[key].price,
                     description: data[key].description,
-                    imgUrl: data[key].imgUrl
+                    imgUrl: data[key].imgUrl,
                 })
             }
             setFetchedMeals(loadedMeals);

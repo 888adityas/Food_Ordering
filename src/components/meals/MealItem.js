@@ -2,6 +2,8 @@ import { useContext } from 'react';
 import MealItemForm from './MealItemForm';
 import CartContext from "../../store/cart-context";
 import './MealItem.module.css';
+import LazyLoad from '../../assets/lazyLoad.png'
+
 
 const MealItem = (props) => {
     const ctx = useContext(CartContext);
@@ -28,7 +30,7 @@ const MealItem = (props) => {
     return (<>
 
         <div className="card shadow border-0 animate__animated animate__zoomIn" style={{ width: "18rem" }} >
-            <img src={props.imgUrl} className="card-img-top" alt="props.name" loading="lazy" />
+            <img src={props.imgUrl === "" ? LazyLoad : props.imgUrl} className="card-img-top" alt="props.name" loading="lazy" width="25" height="200" />
             <div className="card-body d-flex flex-column justify-content-between">
                 {/* <p className="card-text">{props.description}</p> */}
                 <div className="d-flex align-items-center justify-content-between">
