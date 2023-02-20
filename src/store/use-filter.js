@@ -2,7 +2,7 @@
 const useFilter = (arrOfObj, value) => {
     let filteredArray;
     if (value) {
-        filteredArray = arrOfObj.filter((item) => item.name.toLowerCase().includes(value.trim()));
+        filteredArray = arrOfObj.filter((item) => item.name.includes(value.trim()));
         return { filteredArray };
     } else {
         filteredArray = [...arrOfObj]

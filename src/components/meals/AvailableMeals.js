@@ -10,7 +10,7 @@ const AvailableMeals = () => {
     const [fetchedMeals, setFetchedMeals] = useState([]);
     const ctx = useContext(CartContext);
     // you have to lowercase the value before sending to custom hook
-    const searchValue2 = ctx.searchValue;
+    const searchValue2 = ctx.searchValue.toLowerCase();
     const { filteredArray: filteredMeals } = useFilter(fetchedMeals, searchValue2);
 
     useEffect(() => {

@@ -32,7 +32,7 @@ const MealItem = (props) => {
             <div className="card-body d-flex flex-column justify-content-between">
                 {/* <p className="card-text">{props.description}</p> */}
                 <div className="d-flex align-items-center justify-content-between">
-                    <h5 className="card-title">{props.name}</h5>
+                    <h5 className="card-title text-capitalize">{props.name}</h5>
                     <h6>₹{props.price}</h6>
                 </div>
                 <MealItemForm onAddToCart={addToCartHandler} />
