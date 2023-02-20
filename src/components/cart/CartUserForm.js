@@ -96,17 +96,23 @@ const CartUserForm = (props) => {
 
                 <div className='d-flex align-items-center'>
                     <input onChange={nameInputHandler}
-                        type="text" className={`${nameClasses} ${nameValidClass} mb-1`} id="name" placeholder="your name" pattern="[A-Za-z ]+"></input>
+                        type="text" className={`${nameClasses} ${nameValidClass} mb-1`} id="name" placeholder="your name"
+                    // pattern="[A-Za-z ]+"
+                    ></input>
                     {nameValidClass && <p className='text-success mb-0 ms-1'>✔</p>}
                 </div>
 
                 <div className='d-flex align-items-center'>
-                    <input onChange={numberInputHandler} type="text" inputMode="numeric" className={`${numberClasses} ${numberValidClass} mb-1`} id="Number" placeholder="10 digit mobile number" pattern="[0-9]+"></input>
+                    <input onChange={numberInputHandler} type="text" inputMode="numeric" className={`${numberClasses} ${numberValidClass} mb-1`} id="Number" placeholder="10 digit mobile number"
+                    // pattern="[0-9]+"
+                    ></input>
                     {numberValidClass && <p className='text-success mb-0 ms-1'>✔</p>}
                 </div>
 
                 <div className='d-flex align-items-center'>
-                    <input onChange={cityInputHandler} type="text" className={`${cityClasses} ${cityValidClass} mb-1`} id="city" placeholder="your city" pattern="[A-Za-z]+"></input>
+                    <input onChange={cityInputHandler} type="text" className={`${cityClasses} ${cityValidClass} mb-1`} id="city" placeholder="your city"
+                    // pattern="[A-Za-z]+"
+                    ></input>
                     {cityValidClass && <p className='text-success mb-0 ms-1'>✔</p>}
                 </div>
 
