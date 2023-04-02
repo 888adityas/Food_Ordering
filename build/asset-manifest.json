@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/food_ordering/static/css/main.d2dc6298.css",
-    "main.js": "/food_ordering/static/js/main.fdf88cfb.js",
+    "main.js": "/food_ordering/static/js/main.4dc04b7f.js",
     "static/media/loading.gif": "/food_ordering/static/media/loading.95e0c014b427e48f5dd0.gif",
+    "static/media/lazyLoad.png": "/food_ordering/static/media/lazyLoad.6248f848e1ff31c5fa6a.png",
     "index.html": "/food_ordering/index.html",
     "main.d2dc6298.css.map": "/food_ordering/static/css/main.d2dc6298.css.map",
-    "main.fdf88cfb.js.map": "/food_ordering/static/js/main.fdf88cfb.js.map"
+    "main.4dc04b7f.js.map": "/food_ordering/static/js/main.4dc04b7f.js.map"
   },
   "entrypoints": [
     "static/css/main.d2dc6298.css",
-    "static/js/main.fdf88cfb.js"
+    "static/js/main.4dc04b7f.js"
   ]
 }
