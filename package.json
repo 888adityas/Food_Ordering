@@ -1,6 +1,6 @@
 {
   "name": "self_project1",
-  "homepage": "https://888adityas.github.io/food_ordering/",
+  "homepage": "https://888adityas.github.io/food-ordering/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,11 +46,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/888adityas/food_ordering.git"
+    "url": "git+https://github.com/888adityas/food-ordering.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/888adityas/food_ordering/issues"
+    "url": "https://github.com/888adityas/food-ordering/issues"
   }
 }
